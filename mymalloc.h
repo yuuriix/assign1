@@ -10,8 +10,8 @@
 
 
 
-//linked list structure holding memory allocations
-//typedef struct MemEntry MemEntry;
+//linked list structure that is holding the allocations of memory used in our implementation of malloc and free.
+//typedef struct MNodeLL MNodeLL;
 
 
 void *mymalloc(unsigned int size, char *file, int line);
